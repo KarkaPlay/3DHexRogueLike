@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -24,8 +23,7 @@ public class CreateGrid : MonoBehaviour
         gridStartPos = new Vector3(0f, -0.5f, 0f);
         
         gridManager = gameObject.GetComponent<GridManager>();
-
-        int index = 0;
+        
         GameObject prefab = cellPrefab; // Убрать "= cellPrefab если вернуть пустые ячейки"
         for (int j = 0; j < height / 2; j++)
         {
@@ -45,7 +43,6 @@ public class CreateGrid : MonoBehaviour
                 TextMeshPro hexText = currentCell.GetComponentInChildren<TextMeshPro>();
                 hexText.text = currentCell.GetComponent<Cell>().cellCoords.x + "." + currentCell.GetComponent<Cell>().cellCoords.y;
                 currentCell.name = "cell " + hexText.text;
-                index++;
             }
 
             for (int i = 0; i < width / 2; i++)
@@ -61,7 +58,6 @@ public class CreateGrid : MonoBehaviour
                 TextMeshPro hexText = currentCell.GetComponentInChildren<TextMeshPro>();
                 hexText.text = currentCell.GetComponent<Cell>().cellCoords.x + "." + currentCell.GetComponent<Cell>().cellCoords.y;
                 currentCell.name = "cell " + hexText.text;
-                index++;
             }
         }
     }

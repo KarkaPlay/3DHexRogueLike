@@ -8,8 +8,8 @@ public class Cell : MonoBehaviour
     public Color originalColor;
     
     public bool isPlayable = true;
-    public bool isChosen = false;
-    public bool isHighlighted = false;
+    public bool isChosen;
+    public bool isHighlighted;
     
     public GridManager manager;
     public Character character;
@@ -21,7 +21,7 @@ public class Cell : MonoBehaviour
         FindNeighbours();
         SetCharacter();
     }
-
+    
     public void FindNeighbours()
     {
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-2, cellCoords.y)));
@@ -38,6 +38,7 @@ public class Cell : MonoBehaviour
         character = transform.GetComponentInChildren<Character>();
     }
 
+    // TODO - Если на клетке стоит враг, то при наведении курсора она становится красной
     public void OnMouseEnter()
     {
         if (isPlayable && !isChosen)
@@ -46,7 +47,8 @@ public class Cell : MonoBehaviour
         }
     }
 
-    private void OnMouseExit()
+    // BUG - После нажатия на highlighted ячейку она становится красной. Если снова навести на неё курсор она станет белой, а должна остаться красной
+    public void OnMouseExit()
     {
         if (!isChosen && !isHighlighted)
         {
@@ -65,6 +67,16 @@ public class Cell : MonoBehaviour
         {
             manager.ChooseCell(this);
             isChosen = true;
+        }
+    }
+
+    // TODO - убрать перекраску при нажатии, заменить на перемещение на эту ячейку
+    public void OnMouseOver()
+    {
+        // При нажатии правой кнопки мыши
+        if (isHighlighted && Input.GetMouseButtonDown(1))
+        {
+            ChangeColor(Color.red);
         }
     }
 }

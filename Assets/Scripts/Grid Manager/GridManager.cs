@@ -30,6 +30,7 @@ public class GridManager : MonoBehaviour
 
     public void ChooseCell(Cell cell)
     {
+        // Отменяем предыдущее выделение
         if (currentChosen)
         {
             currentChosen.ChangeColor(currentChosen.originalColor);
@@ -42,6 +43,7 @@ public class GridManager : MonoBehaviour
             }
         }
 
+        // Выделяем ячейку
         currentChosen = cell;
         cell.ChangeColor(Color.blue);
         foreach (var neighbourCell in cell.neighbourCells)
@@ -52,6 +54,8 @@ public class GridManager : MonoBehaviour
                 neighbourCell.isHighlighted = true;
             }
         }
+        
+        // Звук выбора ячейки
         audioSource.Play();
     }
 }
