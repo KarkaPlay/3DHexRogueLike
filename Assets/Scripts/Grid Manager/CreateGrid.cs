@@ -9,10 +9,11 @@ public class CreateGrid : MonoBehaviour
     public GameObject cellPrefab;
     public GameObject emptyCellPrefab;
     public int width, height;
+    public bool coordsIsOn;
 
     private Vector3 gridStartPos;
     private float YGridOffset, XGridOffset;
-
+    
     public void GenerateGrid()
     {
         width = 34; // Клеток в ширину
@@ -67,5 +68,15 @@ public class CreateGrid : MonoBehaviour
         var children = new List<GameObject>();
         foreach (Transform child in transform) children.Add(child.gameObject);
         children.ForEach(child => DestroyImmediate(child));
+    }
+
+    public void SwitchCoords()
+    {
+        MeshRenderer textMesh;
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            textMesh = transform.GetChild(i).GetChild(0).GetComponent<MeshRenderer>();
+            textMesh.enabled = !textMesh.enabled;
+        }
     }
 }

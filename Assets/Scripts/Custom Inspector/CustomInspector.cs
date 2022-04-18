@@ -18,6 +18,10 @@ public class CustomInspector : Editor
         {
             createGrid.ClearGrid();
         }
-        
+
+        if (GUILayout.Button("Switch Coords"))
+        {
+            createGrid.SwitchCoords();
+        }
     }
 }
