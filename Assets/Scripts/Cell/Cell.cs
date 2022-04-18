@@ -11,12 +11,10 @@ public class Cell : MonoBehaviour
     public bool isChosen;
     public bool isHighlighted;
     
-    public GridManager manager;
     public Character character;
 
     private void Start()
     {
-        manager = transform.parent.GetComponent<GridManager>();
         originalColor = GetComponent<Renderer>().material.color;
         FindNeighbours();
         SetCharacter();
@@ -24,6 +22,7 @@ public class Cell : MonoBehaviour
     
     public void FindNeighbours()
     {
+        var manager = transform.parent.GetComponent<GridManager>();
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-2, cellCoords.y)));
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-1, cellCoords.y+1)));
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x+1, cellCoords.y+1)));
@@ -46,13 +45,22 @@ public class Cell : MonoBehaviour
             ChangeColor(Color.white);
         }
     }
-
-    // BUG - После нажатия на highlighted ячейку она становится красной. Если снова навести на неё курсор она станет белой, а должна остаться красной
+    
     public void OnMouseExit()
     {
-        if (!isChosen && !isHighlighted)
+        if (character)
         {
-            ChangeColor(originalColor);
+            if (!character.isChosen)
+            {
+                ChangeColor(originalColor);
+            }
+        }
+        else
+        {
+            if (!isHighlighted)
+            {
+                ChangeColor(originalColor);
+            }
         }
     }
 
@@ -61,22 +69,45 @@ public class Cell : MonoBehaviour
         GetComponent<Renderer>().material.color = newColor;
     }
 
-    public void OnMouseDown()
+    public void UnHighlight(bool unHighlightNeighbours)
     {
-        if (isPlayable)
+        if (!isPlayable) return;
+        
+        isHighlighted = false;
+        ChangeColor(originalColor);
+        
+        if (unHighlightNeighbours)
         {
-            manager.ChooseCell(this);
-            isChosen = true;
+            foreach (var cell in neighbourCells)
+            {
+                cell.UnHighlight(false);
+            }
         }
     }
 
-    // TODO - убрать перекраску при нажатии, заменить на перемещение на эту ячейку
+    public void Highlight(bool highlightNeighbours)
+    {
+        if (!isPlayable) return;
+        
+        isHighlighted = true;
+        ChangeColor(Color.white);
+
+        if (highlightNeighbours)
+        {
+            foreach (var cell in neighbourCells)
+            {
+                cell.Highlight(false);
+            }
+        }
+    }
+    
     public void OnMouseOver()
     {
         // При нажатии правой кнопки мыши
         if (isHighlighted && Input.GetMouseButtonDown(1))
         {
             ChangeColor(Color.red);
+            transform.parent.GetComponent<GridManager>().currentChosenCharacter.MoveTo(this);
         }
     }
 }

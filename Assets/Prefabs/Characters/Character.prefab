@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3796289853165519204
 Transform:
@@ -112,5 +112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
+  isChosen: 0
+  cell: {fileID: 0}
+  manager: {fileID: 0}
+  gridOffset: {x: 0, y: 0, z: 0}
   HP: 0
   attack: 0

@@ -4,8 +4,8 @@ using UnityEngine;
 public class GridManager : MonoBehaviour
 {
     public List<Cell> cells;
-
-    public Cell currentChosen;
+    
+    public Character currentChosenCharacter;
     public AudioSource audioSource;
 
     private void Awake()
@@ -28,33 +28,25 @@ public class GridManager : MonoBehaviour
         return null;
     }
 
-    public void ChooseCell(Cell cell)
+    public void ChooseCharacter(Character chosenCharacter)
     {
         // Отменяем предыдущее выделение
-        if (currentChosen)
+        if (currentChosenCharacter)
         {
-            currentChosen.ChangeColor(currentChosen.originalColor);
-            currentChosen.isChosen = false;
+            var currentChosenCell = currentChosenCharacter.cell;
+            currentChosenCell.ChangeColor(currentChosenCell.originalColor);
+            currentChosenCharacter.isChosen = false;
             
-            foreach (var neighbourCell in currentChosen.neighbourCells)
-            {
-                neighbourCell.ChangeColor(neighbourCell.originalColor);
-                neighbourCell.isHighlighted = false;
-            }
+            currentChosenCell.UnHighlight(true);
         }
 
         // Выделяем ячейку
-        currentChosen = cell;
-        cell.ChangeColor(Color.blue);
-        foreach (var neighbourCell in cell.neighbourCells)
-        {
-            if (neighbourCell.isPlayable)
-            {
-                neighbourCell.ChangeColor(Color.white);
-                neighbourCell.isHighlighted = true;
-            }
-        }
+        currentChosenCharacter = chosenCharacter;
+        currentChosenCharacter.cell.Highlight(true);
         
+        currentChosenCharacter.isChosen = true;
+        currentChosenCharacter.cell.ChangeColor(Color.blue);
+
         // Звук выбора ячейки
         audioSource.Play();
     }

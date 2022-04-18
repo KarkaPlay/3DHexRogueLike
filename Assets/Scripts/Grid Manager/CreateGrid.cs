@@ -72,10 +72,10 @@ public class CreateGrid : MonoBehaviour
 
     public void SwitchCoords()
     {
-        MeshRenderer textMesh;
+        TextMeshPro textMesh;
         for (int i = 0; i < transform.childCount; i++)
         {
-            textMesh = transform.GetChild(i).GetChild(0).GetComponent<MeshRenderer>();
+            textMesh = transform.GetChild(i).GetComponentInChildren<TextMeshPro>();
             textMesh.enabled = !textMesh.enabled;
         }
     }
