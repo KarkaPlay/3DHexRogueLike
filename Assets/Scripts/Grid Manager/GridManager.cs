@@ -8,12 +8,23 @@ public class GridManager : MonoBehaviour
     public Character currentChosenCharacter;
     public AudioSource audioSource;
 
+    public enum State
+    {
+        nothingChosen,
+        characterChosen,
+        inAction
+    };
+
+    public State currentState;
+
     private void Awake()
     {
         foreach (var cell in GetComponentsInChildren<Cell>())
         {
             cells.Add(cell);
         }
+
+        currentState = State.nothingChosen;
     }
 
     public Cell FindCell(Vector2Int coords)
@@ -49,5 +60,8 @@ public class GridManager : MonoBehaviour
 
         // Звук выбора ячейки
         audioSource.Play();
+        
+        // Состояние меняется на "выбран персонаж"
+        currentState = State.characterChosen;
     }
 }

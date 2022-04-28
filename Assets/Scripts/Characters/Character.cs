@@ -27,9 +27,10 @@ public class Character : MonoBehaviour
         Move();
     }
     
-    // BUG - можно перемещаться на клетку с персонажем
     public void MoveTo(Cell toCell)
     {
+        manager.currentState = GridManager.State.inAction;
+        
         cell.character = null;
         toCell.character = this;
         
@@ -40,6 +41,8 @@ public class Character : MonoBehaviour
         transform.position = toCell.transform.position + gridOffset;
         transform.parent = toCell.gameObject.transform;
         isChosen = false;
+
+        manager.currentState = GridManager.State.nothingChosen;
     }
 
     void Move()
@@ -48,10 +51,30 @@ public class Character : MonoBehaviour
     }
 
     private void OnMouseDown() { manager.ChooseCharacter(this); }
+    
+    private void OnMouseEnter()
+    {
+        // TODO: изменять курсор на курсор атаки, если на ячейке враг
+        if (manager.currentState == GridManager.State.characterChosen)
+            return;
+        
+        cell.OnMouseEnter();
+    }
 
-    private void OnMouseEnter() { cell.OnMouseEnter(); }
+    private void OnMouseExit()
+    {
+        if (manager.currentState == GridManager.State.characterChosen)
+            return;
+        
+        cell.OnMouseExit();
+    }
 
-    private void OnMouseExit() { cell.OnMouseExit(); }
-
-    private void OnMouseOver() { cell.OnMouseOver(); }
+    // TODO: Запустить атаку при нажатии ПКМ
+    private void OnMouseOver()
+    {
+        if (manager.currentState == GridManager.State.characterChosen)
+            return;
+        
+        cell.OnMouseOver();
+    }
 }

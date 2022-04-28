@@ -37,29 +37,37 @@ public class Cell : MonoBehaviour
         character = transform.GetComponentInChildren<Character>();
     }
 
-    // TODO - Если на клетке стоит враг, то при наведении курсора она становится красной
+    
     public void OnMouseEnter()
     {
-        if (isPlayable && !isChosen)
-        {
-            ChangeColor(Color.white);
-        }
+        if (!isPlayable) return;
+        if (character.manager.currentState != GridManager.State.nothingChosen)
+            return;
+        
+        ChangeColor(Color.white);
     }
     
     public void OnMouseExit()
     {
+        if (!isHighlighted)
+        {
+            ChangeColor(originalColor);
+        }
+    }
+    
+    public void OnMouseOver()
+    {
+        // При нажатии правой кнопки мыши
+        if (isHighlighted && !character && Input.GetMouseButtonDown(1))
+        {
+            transform.parent.GetComponent<GridManager>().currentChosenCharacter.MoveTo(this);
+        }
+
         if (character)
         {
-            if (!character.isChosen)
+            if (character.isEnemy)
             {
-                ChangeColor(originalColor);
-            }
-        }
-        else
-        {
-            if (!isHighlighted)
-            {
-                ChangeColor(originalColor);
+                // Атаковать врага
             }
         }
     }
@@ -90,7 +98,9 @@ public class Cell : MonoBehaviour
         if (!isPlayable) return;
         
         isHighlighted = true;
-        ChangeColor(Color.white);
+        
+        if (character) { ChangeColor(character.isEnemy ? Color.red : Color.green); }
+        else { ChangeColor(Color.white); }
 
         if (highlightNeighbours)
         {
@@ -101,13 +111,4 @@ public class Cell : MonoBehaviour
         }
     }
     
-    public void OnMouseOver()
-    {
-        // При нажатии правой кнопки мыши
-        if (isHighlighted && Input.GetMouseButtonDown(1))
-        {
-            ChangeColor(Color.red);
-            transform.parent.GetComponent<GridManager>().currentChosenCharacter.MoveTo(this);
-        }
-    }
 }
