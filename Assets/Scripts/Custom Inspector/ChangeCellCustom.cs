@@ -2,6 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(ChangeCellType))]
+[CanEditMultipleObjects]
 public class ChangeCellCustom : Editor
 {
     public override void OnInspectorGUI()
