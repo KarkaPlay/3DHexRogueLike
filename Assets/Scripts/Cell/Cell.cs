@@ -41,6 +41,8 @@ public class Cell : MonoBehaviour
     public void OnMouseEnter()
     {
         if (!isPlayable) return;
+        if (!character)
+            return;
         if (character.manager.currentState != GridManager.State.nothingChosen)
             return;
         
