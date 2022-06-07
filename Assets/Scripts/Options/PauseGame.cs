@@ -6,22 +6,25 @@ using UnityEngine.SceneManagement;
 public class PauseGame : MonoBehaviour
 {
     [SerializeField]
-    private GameObject Menu;
-    [SerializeField]
-    private Canvas Interface;
+    private GameObject Interface;
     [SerializeField]
     private GameObject OptionMenu;
     [SerializeField]
-    private Canvas PauseMenu;
-
+    private GameObject PauseMenu;
+    [SerializeField]
+    private GameObject VideoSettings;
+    [SerializeField]
+    private GameObject AudioSettings;
     public bool isPaused = false;
 
 
 
     private void Start()
     {
+        ShowVideoSettings();
+        PauseMenu.SetActive(false);
         OptionMenu.SetActive(false);
-        Menu.SetActive(false);
+ 
     }
     void Update()
     {
@@ -45,8 +48,9 @@ public class PauseGame : MonoBehaviour
     }
      public void OptionsMenu()
     {
-        PauseMenu.enabled = false;
+        PauseMenu.SetActive(false);
         OptionMenu.SetActive(true);
+     
     }
     public void QuitGame()
     {
@@ -55,19 +59,17 @@ public class PauseGame : MonoBehaviour
     private void Pause()
     {
         Time.timeScale = 0f;
-        Cursor.lockState = CursorLockMode.Confined;
-        Interface.enabled = false;
-        PauseMenu.enabled = true;
-        Menu.SetActive(true);
+        Interface.SetActive(false);
+        PauseMenu.SetActive(true);
+       
     }
     private void unPause()
     {
         Time.timeScale = 1;
-        Cursor.lockState = CursorLockMode.Locked;
-        Interface.enabled = true;
-        PauseMenu.enabled = false;
+        Interface.SetActive(true);
+        PauseMenu.SetActive(false);
         OptionMenu.SetActive(false);
-        Menu.SetActive(false);
+   
     }
     public void BackToGame()
     {
@@ -77,13 +79,27 @@ public class PauseGame : MonoBehaviour
     }
     public void MainMenu()
     {
-        SceneManager.LoadScene("Menu");
+        
         unPause();
         isPaused = false;
+        SceneManager.LoadScene("Menu");
     }
     public void Back()
     {
-        PauseMenu.enabled = true;
+        PauseMenu.SetActive(true);
         OptionMenu.SetActive(false);
+    }
+  
+    public void ShowVideoSettings()
+    {
+        VideoSettings.SetActive(true);
+
+        AudioSettings.SetActive(false);
+    }
+    public void ShowAudioSettings()
+    {
+        VideoSettings.SetActive(false);
+
+        AudioSettings.SetActive(true);
     }
 }
