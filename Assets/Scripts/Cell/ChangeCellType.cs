@@ -5,12 +5,13 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ChangeCellType : MonoBehaviour
 {
-    public GameObject grassCell, rockCell, sandCell, waterCell;
+    public GameObject grassCell, groundCell, sandCell, waterCell;
 
     public void ToGrass()
     {
         GetComponent<Renderer>().material = grassCell.GetComponent<Renderer>().sharedMaterial;
         GetComponent<Cell>().isPlayable = true;
+        GetComponent<MeshFilter>().mesh = grassCell.GetComponent<MeshFilter>().sharedMesh;
         transform.position = new Vector3(transform.position.x, -0.5f, transform.position.z);
     }
     
@@ -18,20 +19,23 @@ public class ChangeCellType : MonoBehaviour
     {
         GetComponent<Renderer>().material = sandCell.GetComponent<Renderer>().sharedMaterial;
         GetComponent<Cell>().isPlayable = true;
+        GetComponent<MeshFilter>().mesh = sandCell.GetComponent<MeshFilter>().sharedMesh;
         transform.position = new Vector3(transform.position.x, -0.5f, transform.position.z);
     }
     
-    public void ToRock()
+    public void ToGround()
     {
-        GetComponent<Renderer>().material = rockCell.GetComponent<Renderer>().sharedMaterial;
-        GetComponent<Cell>().isPlayable = false;
-        transform.position = new Vector3(transform.position.x, -0.25f, transform.position.z);
+        GetComponent<Renderer>().material = groundCell.GetComponent<Renderer>().sharedMaterial;
+        GetComponent<Cell>().isPlayable = true;
+        GetComponent<MeshFilter>().mesh = groundCell.GetComponent<MeshFilter>().sharedMesh;
+        transform.position = new Vector3(transform.position.x, -0.5f, transform.position.z);
     }
     
     public void ToWater()
     {
         GetComponent<Renderer>().material = waterCell.GetComponent<Renderer>().sharedMaterial;
         GetComponent<Cell>().isPlayable = false;
+        GetComponent<MeshFilter>().mesh = waterCell.GetComponent<MeshFilter>().sharedMesh;
         transform.position = new Vector3(transform.position.x, -0.75f, transform.position.z);
     }
 }

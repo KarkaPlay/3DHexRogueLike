@@ -20,9 +20,9 @@ public class ChangeCellCustom : Editor
             changeCellType.ToSand();
         }
         
-        if (GUILayout.Button("Rock", GUILayout.Height(60)))
+        if (GUILayout.Button("Ground", GUILayout.Height(60)))
         {
-            changeCellType.ToRock();
+            changeCellType.ToGround();
         }
         
         if (GUILayout.Button("Water", GUILayout.Height(60)))
