@@ -16,7 +16,7 @@ public class Character : MonoBehaviour
 
     private void Start()
     {
-        gridOffset = new Vector3(-0.5f, 1.25f, 0.25f);
+        gridOffset = new Vector3(0f, .65f, 0f);
         cell = transform.parent.GetComponent<Cell>();
         manager = cell.transform.parent.GetComponent<GridManager>();
     }
