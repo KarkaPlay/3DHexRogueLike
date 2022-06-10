@@ -13,6 +13,7 @@ public class Character : MonoBehaviour
 
     public int HP;
     public int attack;
+    public int range;
 
     private void Start()
     {
@@ -50,14 +51,20 @@ public class Character : MonoBehaviour
         //transform.position = Vector3.LerpUnclamped();
     }
 
-    private void OnMouseDown() { manager.ChooseCharacter(this); }
+    private void OnMouseDown()
+    {
+        if (!isEnemy)
+        {
+            manager.ChooseCharacter(this);
+        }
+    }
     
     private void OnMouseEnter()
     {
         // TODO: изменять курсор на курсор атаки, если на ячейке враг
         if (manager.currentState == GridManager.State.characterChosen)
             return;
-        
+
         cell.OnMouseEnter();
     }
 
@@ -72,8 +79,8 @@ public class Character : MonoBehaviour
     // TODO: Запустить атаку при нажатии ПКМ
     private void OnMouseOver()
     {
-        if (manager.currentState == GridManager.State.characterChosen)
-            return;
+        //if (manager.currentState == GridManager.State.characterChosen)
+            //return;
         
         cell.OnMouseOver();
     }

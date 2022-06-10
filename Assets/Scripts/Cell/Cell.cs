@@ -22,6 +22,11 @@ public class Cell : MonoBehaviour
     
     public void FindNeighbours()
     {
+        int range = 1;
+        if (character)
+        {
+            
+        }
         var manager = transform.parent.GetComponent<GridManager>();
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-2, cellCoords.y)));
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-1, cellCoords.y+1)));
@@ -60,16 +65,23 @@ public class Cell : MonoBehaviour
     public void OnMouseOver()
     {
         // При нажатии правой кнопки мыши
-        if (isHighlighted && !character && Input.GetMouseButtonDown(1))
+        if (isHighlighted && Input.GetMouseButtonDown(1))
         {
-            transform.parent.GetComponent<GridManager>().currentChosenCharacter.MoveTo(this);
-        }
-
-        if (character)
-        {
-            if (character.isEnemy)
+            if (!character) // Если клетка свободна
             {
-                // Атаковать врага
+                transform.parent.GetComponent<GridManager>().currentChosenCharacter.MoveTo(this);
+            }
+            
+            if (character) // Если на клетке враг
+            {
+                if (character.isEnemy)
+                {
+                    character.HP -= character.manager.currentChosenCharacter.attack;
+                    if (character.HP < 1)
+                    {
+                        Destroy(character.gameObject);
+                    }
+                }
             }
         }
     }
