@@ -13721,6 +13721,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 5630513916258514416, guid: 4ebf04287ea4215418c02f5c3d123d7c, type: 3}
+      propertyPath: attackRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5630513916258514416, guid: 4ebf04287ea4215418c02f5c3d123d7c, type: 3}
+      propertyPath: movementRange
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ebf04287ea4215418c02f5c3d123d7c, type: 3}

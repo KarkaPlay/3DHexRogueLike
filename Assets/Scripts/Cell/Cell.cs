@@ -5,7 +5,6 @@ using UnityEngine;
 public class Cell : MonoBehaviour
 {
     [SerializeField] public Vector2Int cellCoords;
-    public List<Cell> neighbourCells;
     public List<Cell> movementRangeCells;
     public List<Cell> attackRangeCells;
     public Color originalColor;
@@ -20,15 +19,22 @@ public class Cell : MonoBehaviour
     {
         originalColor = GetComponent<Renderer>().material.color;
         SetCharacter();
-        AddNeighboursInRange(movementRangeCells, character ? character.movementRange : 1);
+        if (character)
+        {
+            SetNeighbours(character.movementRange, character.attackRange);
+        }
     }
 
-    public void AddNeighboursInRange(List<Cell> list, int range = 1)
+    public void SetNeighbours(int movementRange, int attackRange)
     {
-        list = new List<Cell>();
-        foreach (var cell in FindNeighboursInRange(range))
+        foreach (var cell in FindNeighboursInRange(movementRange))
         {
-            list.Add(cell);
+            movementRangeCells.Add(cell);
+        }
+        
+        foreach (var cell in FindNeighboursInRange(attackRange))
+        {
+            attackRangeCells.Add(cell);
         }
     }
 
@@ -43,8 +49,7 @@ public class Cell : MonoBehaviour
             if (Mathf.Abs(other.cellCoords.x - cellCoords.x)/2 <= range && Mathf.Abs(other.cellCoords.y - cellCoords.y) <= range 
                                                                         && (Mathf.Abs(other.cellCoords.x - cellCoords.x) + Mathf.Abs(other.cellCoords.y - cellCoords.y))/2 <= range)
             {
-                neighbourCells.Add(other);
-                movementRangeCells.Add(other);
+                neighbours.Add(other);
             }
         }
         return neighbours;
@@ -104,70 +109,59 @@ public class Cell : MonoBehaviour
         GetComponent<Renderer>().material.color = newColor;
     }
 
-    public void UnHighlight(bool unHighlightNeighbours)
+    public void HighlightMovement(bool highlightNeighbours)
     {
-        if (!isPlayable) return;
-        
-        isHighlighted = false;
-        ChangeColor(originalColor);
-        
-        if (unHighlightNeighbours)
-        {
-            foreach (var cell in neighbourCells)
-            {
-                cell.UnHighlight(false);
-            }
-        }
-    }
-
-    public void Highlight(bool highlightNeighbours)
-    {
-        if (!isPlayable) return;
-        
+        if (!isPlayable)
+            return;
         isHighlighted = true;
-
-        foreach (var cell in movementRangeCells)
-        {
-            if (!character)
-            {
-                if (!isPlayable) return;
-                isHighlighted = true;
-                ChangeColor(Color.white);
-            }
-        }
-        
-        foreach (var cell in attackRangeCells)
-        {
-            if (character)
-            {
-                ChangeColor(character.isEnemy ? Color.red : Color.green);
-                isHighlighted = true;
-            }
-        }
-        
-        /*if (character) { ChangeColor(character.isEnemy ? Color.red : Color.green); }
-        else { ChangeColor(Color.white); }
+        ChangeColor(Color.white);
 
         if (highlightNeighbours)
         {
             foreach (var cell in movementRangeCells)
             {
-                //cell.Highlight(false);
-                if (!character)
-                {
-                    ChangeColor(Color.white);
-                }
+                cell.HighlightMovement(false);
             }
+        }
+    }
 
+    public void HighlightAttack(bool highlightNeighbours)
+    {
+        if (!isPlayable)
+            return;
+        isHighlighted = true;
+        if (character)
+        {
+            ChangeColor(character.isEnemy ? Color.red : Color.green);
+        }
+
+        if (highlightNeighbours)
+        {
             foreach (var cell in attackRangeCells)
             {
-                //cell.Highlight(false);
-                if (character)
-                {
-                    ChangeColor(character.isEnemy ? Color.red : Color.green);
-                }
+                cell.HighlightAttack(false);
             }
-        }*/
+        }
     }
-    
+
+    public void UnHighlight(bool unHighlightNeighbours)
+    {
+        if (!isPlayable)
+            return;
+        isHighlighted = false;
+        ChangeColor(originalColor);
+
+        if (unHighlightNeighbours)
+        {
+            foreach (var cell in attackRangeCells)
+            {
+                cell.UnHighlight(false);
+            }
+            
+            foreach (var cell in movementRangeCells)
+            {
+                cell.UnHighlight(false);
+            }
+        }
+    }
 }

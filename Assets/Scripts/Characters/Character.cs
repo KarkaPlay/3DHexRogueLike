@@ -37,12 +37,10 @@ public class Character : MonoBehaviour
         toCell.character = this;
         
         cell.UnHighlight(true);
-        cell.AddNeighboursInRange(cell.movementRangeCells, 1);
-        cell.attackRangeCells = new List<Cell>();
-
+        cell.SetNeighbours(1, 0);
         cell = toCell;
-        cell.AddNeighboursInRange(cell.movementRangeCells, movementRange);
-        cell.AddNeighboursInRange(cell.attackRangeCells, attackRange);
+        cell.SetNeighbours(movementRange, attackRange);
+
         
         transform.position = toCell.transform.position + gridOffset;
         transform.parent = toCell.gameObject.transform;

@@ -53,7 +53,8 @@ public class GridManager : MonoBehaviour
 
         // Выделяем ячейку
         currentChosenCharacter = chosenCharacter;
-        currentChosenCharacter.cell.Highlight(true);
+        currentChosenCharacter.cell.HighlightMovement(true);
+        currentChosenCharacter.cell.HighlightAttack(true);
         
         currentChosenCharacter.isChosen = true;
         currentChosenCharacter.cell.ChangeColor(Color.blue);
