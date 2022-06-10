@@ -25,9 +25,14 @@ public class Cell : MonoBehaviour
         int range = 1;
         if (character)
         {
-            
+            range = character.range;
         }
         var manager = transform.parent.GetComponent<GridManager>();
+
+        for (int i = 0; i < range; i++)
+        {
+            neighbourCells.Add();
+        }
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-2, cellCoords.y)));
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x-1, cellCoords.y+1)));
         neighbourCells.Add(manager.FindCell(new Vector2Int(cellCoords.x+1, cellCoords.y+1)));
