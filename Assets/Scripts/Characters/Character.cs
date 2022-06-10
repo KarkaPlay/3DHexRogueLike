@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
 
     public int HP;
     public int attack;
-    public int range;
+    public int movementRange;
 
     private void Start()
     {
