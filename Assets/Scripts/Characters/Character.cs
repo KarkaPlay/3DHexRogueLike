@@ -1,9 +1,9 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    // TODO - сделать префаб врага и функцию атаки
     public bool isEnemy;
     public bool isChosen;
     
@@ -14,6 +14,7 @@ public class Character : MonoBehaviour
     public int HP;
     public int attack;
     public int movementRange;
+    public int attackRange;
 
     private void Start()
     {
@@ -36,8 +37,12 @@ public class Character : MonoBehaviour
         toCell.character = this;
         
         cell.UnHighlight(true);
+        cell.AddNeighboursInRange(cell.movementRangeCells, 1);
+        cell.attackRangeCells = new List<Cell>();
 
         cell = toCell;
+        cell.AddNeighboursInRange(cell.movementRangeCells, movementRange);
+        cell.AddNeighboursInRange(cell.attackRangeCells, attackRange);
         
         transform.position = toCell.transform.position + gridOffset;
         transform.parent = toCell.gameObject.transform;

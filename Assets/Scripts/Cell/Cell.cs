@@ -19,71 +19,34 @@ public class Cell : MonoBehaviour
     private void Start()
     {
         originalColor = GetComponent<Renderer>().material.color;
-        AddNeighboursInRange(1);
         SetCharacter();
+        AddNeighboursInRange(movementRangeCells, character ? character.movementRange : 1);
     }
 
-    public void AddNeighboursInRange(int range = 1)
+    public void AddNeighboursInRange(List<Cell> list, int range = 1)
     {
+        list = new List<Cell>();
         foreach (var cell in FindNeighboursInRange(range))
         {
-            neighbourCells.Add(cell);
+            list.Add(cell);
         }
     }
 
-    public List<Cell> FindNeighboursInRange(int range = 1)
-    {
-        List<Cell> neighboursInRange = new List<Cell>();
-        
-        while (range > 0)
-        {
-            foreach (var cell in FindNeighbours())
-            {
-                foreach (var cell2 in cell.FindNeighbours())
-                {
-                    neighboursInRange.Add(cell2);
-                }
-            }
-            range--;
-        }
-
-        //neighboursInRange = neighboursInRange.Distinct().ToList();
-        return neighboursInRange;
-    }
-    
-    public List<Cell> FindNeighbours()
+    public List<Cell> FindNeighboursInRange(int range)
     {
         List<Cell> neighbours = new List<Cell>();
 
         var manager = transform.parent.GetComponent<GridManager>();
 
-        // при range = 1
-        // x-2, x-1, x+1, x+2
-        // y-1, y, y+1
-
-        int range = 2;
-
-        for (int i = 0; i < range; i++)
+        foreach (var other in manager.cells)
         {
-            
+            if (Mathf.Abs(other.cellCoords.x - cellCoords.x)/2 <= range && Mathf.Abs(other.cellCoords.y - cellCoords.y) <= range 
+                                                                        && (Mathf.Abs(other.cellCoords.x - cellCoords.x) + Mathf.Abs(other.cellCoords.y - cellCoords.y))/2 <= range)
+            {
+                neighbourCells.Add(other);
+                movementRangeCells.Add(other);
+            }
         }
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x - 2, cellCoords.y)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x - 1, cellCoords.y + 1)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x + 1, cellCoords.y + 1)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x + 2, cellCoords.y)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x + 1, cellCoords.y - 1)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x - 1, cellCoords.y - 1)));
-        neighbours.RemoveAll(x => x == null);
-        
-        // при range = 2
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x - 4, cellCoords.y)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x - 1, cellCoords.y + 1)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x + 1, cellCoords.y + 1)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x + 2, cellCoords.y)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x + 1, cellCoords.y - 1)));
-        neighbours.Add(manager.FindCell(new Vector2Int(cellCoords.x - 1, cellCoords.y - 1)));
-        neighbours.RemoveAll(x => x == null);
-        
         return neighbours;
     }
 
@@ -162,17 +125,49 @@ public class Cell : MonoBehaviour
         if (!isPlayable) return;
         
         isHighlighted = true;
+
+        foreach (var cell in movementRangeCells)
+        {
+            if (!character)
+            {
+                if (!isPlayable) return;
+                isHighlighted = true;
+                ChangeColor(Color.white);
+            }
+        }
         
-        if (character) { ChangeColor(character.isEnemy ? Color.red : Color.green); }
+        foreach (var cell in attackRangeCells)
+        {
+            if (character)
+            {
+                ChangeColor(character.isEnemy ? Color.red : Color.green);
+                isHighlighted = true;
+            }
+        }
+        
+        /*if (character) { ChangeColor(character.isEnemy ? Color.red : Color.green); }
         else { ChangeColor(Color.white); }
 
         if (highlightNeighbours)
         {
-            foreach (var cell in neighbourCells)
+            foreach (var cell in movementRangeCells)
             {
-                cell.Highlight(false);
+                //cell.Highlight(false);
+                if (!character)
+                {
+                    ChangeColor(Color.white);
+                }
             }
-        }
+
+            foreach (var cell in attackRangeCells)
+            {
+                //cell.Highlight(false);
+                if (character)
+                {
+                    ChangeColor(character.isEnemy ? Color.red : Color.green);
+                }
+            }
+        }*/
     }
     
 }
