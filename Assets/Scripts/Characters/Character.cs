@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = System.Random;
+using Random = UnityEngine.Random;
 
 public class Character : MonoBehaviour
 {
@@ -33,18 +33,19 @@ public class Character : MonoBehaviour
 
     public void RandomMove()
     {
-        StartCoroutine("RandomMoveRoutine");
+        List<Cell> randomCells = cell.movementRangeCells;
+        randomCells.RemoveAll(item => !cell.isPlayable);
+        int randNum = Random.Range(0, randomCells.Count);
+        MoveTo(randomCells[randNum]);
     }
 
-    static Random rnd = new Random();
+    /*static System.Random rnd = new System.Random();
     public IEnumerator RandomMoveRoutine()
     {
         yield return new WaitForSeconds(1f);
-        if (isEnemy)
-        {
-            MoveTo(cell.movementRangeCells[rnd.Next(cell.movementRangeCells.Count)]);
-        }
-    }
+
+        MoveTo(cell.movementRangeCells[rnd.Next(cell.movementRangeCells.Count)]);
+    }*/
     
     public void MoveTo(Cell toCell)
     {
@@ -57,14 +58,13 @@ public class Character : MonoBehaviour
         cell.SetNeighbours(1, 0);
         cell = toCell;
         cell.SetNeighbours(movementRange, attackRange);
-
         
         transform.position = toCell.transform.position + gridOffset;
         transform.parent = toCell.gameObject.transform;
         isChosen = false;
 
         manager.currentState = GridManager.State.nothingChosen;
-        manager.EnemiesMove();
+        //manager.EnemiesMove();
     }
 
     void Move()

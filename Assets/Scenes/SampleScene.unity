@@ -13750,6 +13750,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2400927368946240005, guid: 4ebf04287ea4215418c02f5c3d123d7c, type: 3}
+      propertyPath: attackRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2400927368946240005, guid: 4ebf04287ea4215418c02f5c3d123d7c, type: 3}
+      propertyPath: movementRange
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3668458968944685913, guid: 4ebf04287ea4215418c02f5c3d123d7c, type: 3}
       propertyPath: m_RootOrder
       value: 10

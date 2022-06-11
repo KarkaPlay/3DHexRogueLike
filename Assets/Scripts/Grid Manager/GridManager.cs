@@ -42,7 +42,7 @@ public class GridManager : MonoBehaviour
         {
             if (character.isEnemy)
             {
-                character.RandomMove();
+                //character.RandomMove();
             }
         }
     }
