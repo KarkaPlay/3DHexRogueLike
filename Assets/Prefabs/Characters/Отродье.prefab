@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2679443003663723858}
   - component: {fileID: 5715838185594177937}
   - component: {fileID: 2565078792986290229}
+  - component: {fileID: -1946755276384990138}
   m_Layer: 0
   m_Name: "\u041E\u0442\u0440\u043E\u0434\u044C\u0435"
   m_TagString: Untagged
@@ -104,6 +105,8 @@ MonoBehaviour:
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 64
   attack: 12
+  movementRange: 0
+  attackRange: 0
 --- !u!136 &2565078792986290229
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -118,3 +121,15 @@ CapsuleCollider:
   m_Height: 3.1471825
   m_Direction: 1
   m_Center: {x: -0.021854535, y: -0.050735176, z: -0.1295422}
+--- !u!114 &-1946755276384990138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4481001670295653511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2e11e3d3a0e0e43906b5bfd9e16445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
