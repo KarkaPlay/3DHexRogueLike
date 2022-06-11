@@ -346,6 +346,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1608190727603667870}
+  - component: {fileID: 4535877634880588176}
+  - component: {fileID: 3082355698149767544}
+  - component: {fileID: 45721414292817967}
   m_Layer: 0
   m_Name: Knight_Golden_Male
   m_TagString: Untagged
@@ -362,7 +365,7 @@ Transform:
   m_GameObject: {fileID: 2097164904821987620}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 5.773, y: -0.342, z: 7.442}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6972794949209092789}
@@ -370,8 +373,56 @@ Transform:
   - {fileID: 6519387822321042408}
   - {fileID: 2180412844197826427}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!136 &4535877634880588176
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097164904821987620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.8026553
+  m_Height: 3.7764478
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.3882236, z: 0}
+--- !u!114 &3082355698149767544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097164904821987620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2530fb20faa4f4240b46292c1acc9cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnemy: 0
+  isChosen: 0
+  cell: {fileID: 0}
+  manager: {fileID: 0}
+  gridOffset: {x: 0, y: 0, z: 0}
+  HP: 82
+  attack: 30
+  movementRange: 2
+  attackRange: 1
+  randomCells: []
+--- !u!114 &45721414292817967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097164904821987620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2e11e3d3a0e0e43906b5bfd9e16445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2215612704214618005
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +903,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 58bd8c9ebe7e7564a9b918df74968c92, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

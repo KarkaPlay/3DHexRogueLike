@@ -189,7 +189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -969,6 +969,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7007766894986526543}
+  - component: {fileID: 1083274965148971293}
+  - component: {fileID: 7489803948399677020}
+  - component: {fileID: 7956712746794252063}
   m_Layer: 0
   m_Name: Goblin-archer
   m_TagString: Untagged
@@ -985,7 +988,7 @@ Transform:
   m_GameObject: {fileID: 7641278640266257909}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 8.836, y: -0.3498, z: 2.623}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6854206366417621662}
@@ -993,8 +996,56 @@ Transform:
   - {fileID: 3736577716866236785}
   - {fileID: 6787607514734223968}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!136 &1083274965148971293
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641278640266257909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.8616478
+  m_Height: 3.9886136
+  m_Direction: 1
+  m_Center: {x: 0.016462564, y: 1.147053, z: 1.190256e-17}
+--- !u!114 &7489803948399677020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641278640266257909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2530fb20faa4f4240b46292c1acc9cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnemy: 1
+  isChosen: 0
+  cell: {fileID: 0}
+  manager: {fileID: 0}
+  gridOffset: {x: 0, y: 0, z: 0}
+  HP: 7
+  attack: 5
+  movementRange: 4
+  attackRange: 3
+  randomCells: []
+--- !u!114 &7956712746794252063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641278640266257909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2e11e3d3a0e0e43906b5bfd9e16445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7835929333602429858
 GameObject:
   m_ObjectHideFlags: 0

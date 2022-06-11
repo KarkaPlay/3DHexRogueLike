@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.7725491, g: 0.7490196, b: 0.79215693, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.05
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7ba3a9669eaa3bc4ea39238984ca85c9, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 477cc4148fad3449482a3bc3178594e2, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -203,7 +203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -280,7 +279,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1752642
 Transform:
@@ -342,7 +341,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -419,7 +417,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &15277618
 Transform:
@@ -480,7 +478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -554,7 +551,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &16085677
 Transform:
@@ -984,7 +981,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &30377717
 Transform:
@@ -1045,7 +1042,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1122,7 +1118,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &31445137
 Transform:
@@ -1183,7 +1179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1260,7 +1255,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &33343842
 Transform:
@@ -1321,7 +1316,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1398,7 +1392,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &38424872
 Transform:
@@ -1459,7 +1453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1880,7 +1873,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &40796027
 Transform:
@@ -1941,7 +1934,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2190,7 +2182,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &43850361
 Transform:
@@ -2251,7 +2243,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2309,107 +2300,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43850360}
   m_Mesh: {fileID: 8691780276856062721, guid: b69d49fb7f80d1d4a98fffaffae3c98b, type: 3}
---- !u!1 &44839102
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 44839106}
-  - component: {fileID: 44839105}
-  - component: {fileID: 44839104}
-  - component: {fileID: 44839103}
-  m_Layer: 0
-  m_Name: Interface
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &44839103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44839102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &44839104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44839102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &44839105
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44839102}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &44839106
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44839102}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &45966645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2491,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &46044227
 Transform:
@@ -2662,7 +2552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2739,7 +2628,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &51149210
 Transform:
@@ -2800,7 +2689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2858,6 +2746,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51149209}
   m_Mesh: {fileID: -7387706064836869012, guid: 9342045e9f3c599449c618327782d67d, type: 3}
+--- !u!1 &54149804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54149806}
+  - component: {fileID: 54149805}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &54149805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54149804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7898fc1ba97eb694f939ad18b849864b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 8992388204453042108}
+  scene:
+    m_Handle: 0
+  winImage: {fileID: 0}
+  looseImage: {fileID: 0}
+  finaleImage: {fileID: 0}
+--- !u!4 &54149806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54149804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.892135, y: 3.4417787, z: -1.1758469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &55877153
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,7 +3331,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &79702111
 Transform:
@@ -3454,7 +3392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3703,7 +3640,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &82687103
 Transform:
@@ -3764,7 +3701,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4357,7 +4293,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &91712632
 Transform:
@@ -4418,7 +4354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4667,7 +4602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &95841060
 Transform:
@@ -4728,7 +4663,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4805,7 +4739,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &101900330
 Transform:
@@ -4866,7 +4800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4943,7 +4876,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &107502872
 Transform:
@@ -5005,7 +4938,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5082,7 +5014,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &107835882
 Transform:
@@ -5143,7 +5075,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5564,7 +5495,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &124003371
 Transform:
@@ -5625,7 +5556,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -5874,7 +5804,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &131011742
 Transform:
@@ -5935,7 +5865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -6007,7 +5936,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &144637230
 Transform:
@@ -6030,7 +5959,7 @@ Transform:
   - {fileID: 1302603537}
   - {fileID: 482848425}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &150175001
 GameObject:
@@ -6223,7 +6152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &157290922
 Transform:
@@ -6285,7 +6214,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -6534,7 +6462,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &162749368
 Transform:
@@ -6595,7 +6523,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -6672,7 +6599,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &162788877
 Transform:
@@ -6733,7 +6660,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -6982,7 +6908,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &171627568
 Transform:
@@ -7043,7 +6969,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -7120,7 +7045,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &172815068
 Transform:
@@ -7181,7 +7106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -7258,7 +7182,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &175798806
 Transform:
@@ -7319,7 +7243,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -7557,6 +7480,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1505709490}
     m_Modifications:
+    - target: {fileID: 4481285102851316768, guid: 0014687c912627547b0262465a6caacd, type: 3}
+      propertyPath: isEnemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5129439629656943862, guid: 0014687c912627547b0262465a6caacd, type: 3}
       propertyPath: m_Name
       value: "\u0412\u043E\u043B\u043A (2)"
@@ -7617,6 +7544,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8729453427458744065, guid: 0014687c912627547b0262465a6caacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0014687c912627547b0262465a6caacd, type: 3}
@@ -7644,7 +7575,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &186685593
 Transform:
@@ -7705,7 +7636,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -8091,7 +8021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &194235922
 Transform:
@@ -8152,7 +8082,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -8573,7 +8502,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &202777810
 Transform:
@@ -8634,7 +8563,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -8711,7 +8639,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &207850195
 Transform:
@@ -8772,7 +8700,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -9193,7 +9120,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &223064178
 Transform:
@@ -9255,7 +9182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -9332,7 +9258,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &224406294
 Transform:
@@ -9393,7 +9319,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -9470,7 +9395,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &234241842
 Transform:
@@ -9531,7 +9456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -9608,7 +9532,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &239733440
 Transform:
@@ -9669,7 +9593,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -10090,7 +10013,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &242065623
 Transform:
@@ -10151,7 +10074,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -10225,7 +10147,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &242800511
 Transform:
@@ -10372,7 +10294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -10621,7 +10542,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &250771504
 Transform:
@@ -10682,7 +10603,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -10931,7 +10851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &267430356
 Transform:
@@ -10993,7 +10913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -11414,7 +11333,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &272819869
 Transform:
@@ -11475,7 +11394,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -11724,7 +11642,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &274495344
 Transform:
@@ -11785,7 +11703,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -12206,7 +12123,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &278091343
 Transform:
@@ -12267,7 +12184,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -12516,7 +12432,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &279685776
 Transform:
@@ -12577,7 +12493,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -12654,7 +12569,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &285534270
 Transform:
@@ -12715,7 +12630,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -12865,7 +12779,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &290398364
 Transform:
@@ -12951,7 +12865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &294129078
 Transform:
@@ -13012,7 +12926,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -13089,7 +13002,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &308047475
 Transform:
@@ -13150,7 +13063,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -13227,7 +13139,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &310089557
 Transform:
@@ -13288,7 +13200,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -13365,7 +13276,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &311340103
 Transform:
@@ -13426,7 +13337,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -13564,7 +13474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -14329,7 +14238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &326430410
 Transform:
@@ -14390,7 +14299,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -14528,7 +14436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -14777,7 +14684,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &328912354
 Transform:
@@ -14839,7 +14746,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -15088,7 +14994,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &334032234
 Transform:
@@ -15149,7 +15055,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -15398,7 +15303,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &344540917
 Transform:
@@ -15459,7 +15364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -16052,7 +15956,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &354357703
 Transform:
@@ -16114,7 +16018,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -16180,6 +16083,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 456715390}
     m_Modifications:
+    - target: {fileID: 3725091711194006614, guid: 2f1d52cad88349649b9994042d71c7fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58bd8c9ebe7e7564a9b918df74968c92, type: 2}
     - target: {fileID: 8533464164492130662, guid: 2f1d52cad88349649b9994042d71c7fb, type: 3}
       propertyPath: m_Name
       value: Archer (1)
@@ -16316,6 +16223,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2210604736790407533, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
@@ -16510,7 +16421,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &365662902
 Transform:
@@ -16528,7 +16439,7 @@ Transform:
   - {fileID: 1903523881}
   - {fileID: 2077689205}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 82.994, z: 0}
 --- !u!1 &366181018
 GameObject:
@@ -16893,7 +16804,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &380079641
 Transform:
@@ -16954,7 +16865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -17031,7 +16941,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &380991307
 Transform:
@@ -17092,7 +17002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -17169,7 +17078,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &383097774
 Transform:
@@ -17230,7 +17139,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -17648,7 +17556,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &391389190
 Transform:
@@ -18422,7 +18330,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &412388805
 Transform:
@@ -18483,7 +18391,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -19076,7 +18983,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &427046979
 Transform:
@@ -19137,7 +19044,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -19791,7 +19697,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -20040,7 +19945,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &447244036
 Transform:
@@ -20101,7 +20006,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -20174,18 +20078,6 @@ PrefabInstance:
     - target: {fileID: 5504734127627384396, guid: 0014687c912627547b0262465a6caacd, type: 3}
       propertyPath: m_RootOrder
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5504734127627384396, guid: 0014687c912627547b0262465a6caacd, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 5504734127627384396, guid: 0014687c912627547b0262465a6caacd, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 5504734127627384396, guid: 0014687c912627547b0262465a6caacd, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 5504734127627384396, guid: 0014687c912627547b0262465a6caacd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20262,8 +20154,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 505aa6cbccff9334eaa62a62d26ac4bd, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 62da27ec6391c8947b9c56c6d0c8296f, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 91cd36348b6950d448a9830e4df15c36, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -20382,7 +20274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &452818904
 Transform:
@@ -20443,7 +20335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -20692,7 +20583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &454064504
 Transform:
@@ -20753,7 +20644,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -20830,7 +20720,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &456384734
 Transform:
@@ -20845,6 +20735,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 548774077}
+  - {fileID: 509266667}
   m_Father: {fileID: 8992388204453042107}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20891,7 +20782,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -20968,7 +20858,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &456533592
 Transform:
@@ -21029,7 +20919,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -21106,7 +20995,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &456715390
 Transform:
@@ -21168,7 +21057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -21589,7 +21477,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &461969961
 Transform:
@@ -21650,7 +21538,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -21727,7 +21614,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &463642811
 Transform:
@@ -21788,7 +21675,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -22037,7 +21923,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &474298655
 Transform:
@@ -22098,7 +21984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -22172,7 +22057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &474895966
 Transform:
@@ -22599,7 +22484,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &480906442
 Transform:
@@ -22680,7 +22565,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &482848425
 Transform:
@@ -22779,7 +22664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -23875,23 +23759,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 8992388204453042107}
+    m_TransformParent: {fileID: 456384734}
     m_Modifications:
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_RootOrder
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.99
+      value: -0.00040000916
       objectReference: {fileID: 0}
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.348
+      value: 0.00608
       objectReference: {fileID: 0}
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.97
+      value: -0.0012000083
       objectReference: {fileID: 0}
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23925,6 +23821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin-archer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8153714972308262105, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
@@ -24185,7 +24085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -24262,7 +24161,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &522942187
 Transform:
@@ -24323,7 +24222,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -25149,7 +25047,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -25909,7 +25806,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &554867135
 Transform:
@@ -25948,7 +25845,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &556159696
 Transform:
@@ -26009,7 +25906,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -26086,7 +25982,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &567971358
 Transform:
@@ -26147,7 +26043,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -26396,7 +26291,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &570707125
 Transform:
@@ -26457,7 +26352,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -26534,7 +26428,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &571326182
 Transform:
@@ -26595,7 +26489,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -26672,7 +26565,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &573826073
 Transform:
@@ -26733,7 +26626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -26810,7 +26702,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &575821215
 Transform:
@@ -26871,7 +26763,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -27120,7 +27011,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &580451710
 Transform:
@@ -27181,7 +27072,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -28118,7 +28008,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &603148086
 Transform:
@@ -28179,7 +28069,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -28256,7 +28145,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &612270185
 Transform:
@@ -28317,7 +28206,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -28394,7 +28282,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &614267718
 Transform:
@@ -28455,7 +28343,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -28532,7 +28419,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &617156089
 Transform:
@@ -28593,7 +28480,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -28665,7 +28551,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &619026968
 Transform:
@@ -29044,7 +28930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &621248724
 Transform:
@@ -29363,7 +29249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -29437,7 +29322,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &632534032
 Transform:
@@ -29523,7 +29408,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &633753840
 Transform:
@@ -29584,7 +29469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -29722,7 +29606,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -30143,7 +30026,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &647969356
 Transform:
@@ -30204,7 +30087,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -30625,7 +30507,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &652769368
 Transform:
@@ -30686,7 +30568,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -30861,7 +30742,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &661964145
 Transform:
@@ -30922,7 +30803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -31681,18 +31561,6 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4773771812649110507, guid: 84d9ae035bc685c49925622fccd8db05, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4773771812649110507, guid: 84d9ae035bc685c49925622fccd8db05, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4773771812649110507, guid: 84d9ae035bc685c49925622fccd8db05, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4773771812649110507, guid: 84d9ae035bc685c49925622fccd8db05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.003878765
       objectReference: {fileID: 0}
@@ -31763,7 +31631,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &685630796
 Transform:
@@ -31824,7 +31692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -32073,7 +31940,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &688186736
 Transform:
@@ -32134,7 +32001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -32272,7 +32138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -32410,7 +32275,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -32659,7 +32523,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &695463718
 Transform:
@@ -32720,7 +32584,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -32797,7 +32660,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &699904617
 Transform:
@@ -32859,7 +32722,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -32936,7 +32798,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &702750202
 Transform:
@@ -32997,7 +32859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -33055,6 +32916,82 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702750201}
   m_Mesh: {fileID: 8691780276856062721, guid: b69d49fb7f80d1d4a98fffaffae3c98b, type: 3}
+--- !u!1 &705208120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705208121}
+  - component: {fileID: 705208123}
+  - component: {fileID: 705208122}
+  m_Layer: 0
+  m_Name: WinImage
+  m_TagString: WinImage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &705208121
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705208120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1961083813}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &705208122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705208120}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f6ef3b54b49e2b24686712e54a2cc5a6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &705208123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705208120}
+  m_CullTransparentMesh: 1
 --- !u!1 &705660153
 GameObject:
   m_ObjectHideFlags: 0
@@ -33590,7 +33527,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &711053345
 Transform:
@@ -33651,7 +33588,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -33728,7 +33664,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &714359989
 Transform:
@@ -33789,7 +33725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -33866,7 +33801,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &717228539
 Transform:
@@ -33927,7 +33862,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -34004,7 +33938,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &717491447
 Transform:
@@ -34065,7 +33999,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -34658,7 +34591,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &721667505
 Transform:
@@ -34719,7 +34652,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -35201,7 +35133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -35278,7 +35209,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &732052362
 Transform:
@@ -35339,7 +35270,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -35932,7 +35862,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &742616184
 Transform:
@@ -35993,7 +35923,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -36242,7 +36171,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &744128270
 Transform:
@@ -36303,7 +36232,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -36552,7 +36480,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &748200071
 Transform:
@@ -36613,7 +36541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -37034,7 +36961,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &760375753
 Transform:
@@ -37095,7 +37022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -37172,7 +37098,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &762040991
 Transform:
@@ -37233,7 +37159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -37310,7 +37235,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &762933452
 Transform:
@@ -37371,7 +37296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -37620,7 +37544,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &764599645
 Transform:
@@ -37681,7 +37605,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -38271,7 +38194,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &771848657
 Transform:
@@ -38357,7 +38280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &775083893
 Transform:
@@ -38418,7 +38341,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -38495,7 +38417,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &780671500
 Transform:
@@ -38556,7 +38478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -38802,7 +38723,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &785220618
 Transform:
@@ -39576,7 +39497,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &822931617
 Transform:
@@ -39637,7 +39558,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -40058,7 +39978,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &826466479
 Transform:
@@ -40119,7 +40039,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -40368,7 +40287,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &841480872
 Transform:
@@ -40429,7 +40348,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -40567,7 +40485,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -40644,7 +40561,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &863050143
 Transform:
@@ -40705,7 +40622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -41298,7 +41214,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &882427203
 Transform:
@@ -41359,7 +41275,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -41436,7 +41351,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &883177631
 Transform:
@@ -41497,7 +41412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -41574,7 +41488,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &897103889
 Transform:
@@ -41635,7 +41549,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -41712,7 +41625,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &912073401
 Transform:
@@ -41773,7 +41686,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -42194,7 +42106,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &916677496
 Transform:
@@ -42255,7 +42167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -42504,7 +42415,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &921113729
 Transform:
@@ -42565,7 +42476,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -42875,7 +42785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -43294,18 +43203,6 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1065913877464488699, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065913877464488699, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065913877464488699, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065913877464488699, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0010800171
       objectReference: {fileID: 0}
@@ -43544,7 +43441,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &958648461
 Transform:
@@ -43605,7 +43502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -44542,7 +44438,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &975413754
 Transform:
@@ -44603,7 +44499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -44852,7 +44747,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &983200203
 Transform:
@@ -44913,7 +44808,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -44990,7 +44884,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &995161150
 Transform:
@@ -45052,7 +44946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -45129,7 +45022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1000342530
 Transform:
@@ -45190,7 +45083,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -46299,7 +46191,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1031944290
 Transform:
@@ -46360,7 +46252,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -46437,7 +46328,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1032702935
 Transform:
@@ -46498,7 +46389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -46747,7 +46637,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1039949383
 Transform:
@@ -46808,7 +46698,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -47306,7 +47195,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1053939238
 GameObject:
@@ -47327,7 +47216,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1053939239
 Transform:
@@ -47388,7 +47277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -47465,7 +47353,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1069724789
 Transform:
@@ -47526,7 +47414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -47775,7 +47662,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1073614933
 Transform:
@@ -47836,7 +47723,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -48080,7 +47966,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1074999028
 Transform:
@@ -48290,7 +48176,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1088735482
 Transform:
@@ -48351,7 +48237,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -48597,7 +48482,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1091142020
 Transform:
@@ -49027,7 +48912,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1122011582
 Transform:
@@ -49088,7 +48973,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -49165,7 +49049,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1122604619
 Transform:
@@ -49226,7 +49110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -49475,7 +49358,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1131582684
 Transform:
@@ -49536,7 +49419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -49613,7 +49495,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1135471058
 Transform:
@@ -49674,7 +49556,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -50267,7 +50148,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1154790633
 Transform:
@@ -50328,7 +50209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -50386,6 +50266,82 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154790632}
   m_Mesh: {fileID: -7387706064836869012, guid: 9342045e9f3c599449c618327782d67d, type: 3}
+--- !u!1 &1155449146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1155449147}
+  - component: {fileID: 1155449149}
+  - component: {fileID: 1155449148}
+  m_Layer: 0
+  m_Name: FinaleImage
+  m_TagString: FinaleImage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1155449147
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155449146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1961083813}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1155449148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155449146}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a72744f769dc5b648a92942ce8eba89f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1155449149
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155449146}
+  m_CullTransparentMesh: 1
 --- !u!1 &1156839808
 GameObject:
   m_ObjectHideFlags: 0
@@ -50405,7 +50361,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1156839809
 Transform:
@@ -50466,7 +50422,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -50604,7 +50559,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -50853,7 +50807,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1180851816
 Transform:
@@ -50914,7 +50868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -51163,7 +51116,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1188932596
 Transform:
@@ -51224,7 +51177,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -51301,7 +51253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1192760229
 Transform:
@@ -51362,7 +51314,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -51439,7 +51390,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1196262622
 Transform:
@@ -51500,7 +51451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -51577,7 +51527,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1196469233
 Transform:
@@ -51638,7 +51588,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -51715,7 +51664,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1201580418
 Transform:
@@ -51777,7 +51726,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -51854,7 +51802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1202745451
 Transform:
@@ -51915,7 +51863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -52164,7 +52111,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1209216662
 Transform:
@@ -52225,7 +52172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -52297,7 +52243,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1210020731
 Transform:
@@ -52330,7 +52276,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1210986949
 Transform:
@@ -52884,7 +52830,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1225201600
 Transform:
@@ -52945,7 +52891,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -53777,7 +53722,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1243524844
 Transform:
@@ -53838,7 +53783,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -53915,7 +53859,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1243912866
 Transform:
@@ -53976,7 +53920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -54114,7 +54057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -54191,7 +54133,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1249887195
 Transform:
@@ -54252,7 +54194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -54845,7 +54786,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1255737242
 Transform:
@@ -54906,7 +54847,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -54983,7 +54923,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1260143343
 Transform:
@@ -55044,7 +54984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -55118,7 +55057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1260496368
 Transform:
@@ -55204,7 +55143,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1263082401
 Transform:
@@ -55265,7 +55204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -55342,7 +55280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1263587800
 Transform:
@@ -55403,7 +55341,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -55480,7 +55417,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1269924544
 Transform:
@@ -55541,7 +55478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -55679,7 +55615,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -56100,7 +56035,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1283464419
 Transform:
@@ -56161,7 +56096,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -56410,7 +56344,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1286433585
 Transform:
@@ -56471,7 +56405,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -56548,7 +56481,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1287965973
 Transform:
@@ -56609,7 +56542,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -56858,7 +56790,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1295509164
 Transform:
@@ -56919,7 +56851,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -57168,7 +57099,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1296494984
 Transform:
@@ -57229,7 +57160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -57478,7 +57408,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1299188715
 Transform:
@@ -57539,7 +57469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -57616,7 +57545,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1301096114
 Transform:
@@ -57677,7 +57606,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -57749,7 +57677,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1302603537
 Transform:
@@ -57787,7 +57715,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1305384556
 Transform:
@@ -57848,7 +57776,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -57925,7 +57852,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1306742316
 Transform:
@@ -57986,7 +57913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 17, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -58227,18 +58153,6 @@ PrefabInstance:
     - target: {fileID: 3547020819684557617, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
       propertyPath: m_RootOrder
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3547020819684557617, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3547020819684557617, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3547020819684557617, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3547020819684557617, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
       propertyPath: m_LocalPosition.x
@@ -58544,7 +58458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -58621,7 +58534,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1318379323
 Transform:
@@ -58682,7 +58595,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -58759,7 +58671,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1323331247
 Transform:
@@ -58820,7 +58732,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -59241,7 +59152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1325979730
 Transform:
@@ -59302,7 +59213,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -59440,7 +59350,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -59861,7 +59770,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1343897207
 Transform:
@@ -59922,7 +59831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -59999,7 +59907,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1353867656
 Transform:
@@ -60060,7 +59968,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -60370,7 +60277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -60447,7 +60353,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1364793891
 Transform:
@@ -60508,7 +60414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -60806,6 +60711,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2210604736790407533, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
@@ -60833,7 +60742,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1375209744
 Transform:
@@ -60894,7 +60803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -60968,7 +60876,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1377465545
 Transform:
@@ -61054,7 +60962,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1380053727
 Transform:
@@ -61115,7 +61023,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -61192,7 +61099,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1381375352
 Transform:
@@ -61253,7 +61160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -61846,7 +61752,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1407846267
 Transform:
@@ -61907,7 +61813,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -61965,6 +61870,82 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407846266}
   m_Mesh: {fileID: -7387706064836869012, guid: 9342045e9f3c599449c618327782d67d, type: 3}
+--- !u!1 &1410249731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410249732}
+  - component: {fileID: 1410249734}
+  - component: {fileID: 1410249733}
+  m_Layer: 0
+  m_Name: LooseImage
+  m_TagString: LooseImage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1410249732
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410249731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1961083813}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1410249733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410249731}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d304d3a0acb7927418f31b2cebc7054e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1410249734
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410249731}
+  m_CullTransparentMesh: 1
 --- !u!1 &1411868847
 GameObject:
   m_ObjectHideFlags: 0
@@ -61984,7 +61965,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1411868848
 Transform:
@@ -62045,7 +62026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -62294,7 +62274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1416678920
 Transform:
@@ -62355,7 +62335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -62432,7 +62411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1417769675
 Transform:
@@ -62493,7 +62472,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -62619,6 +62597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7916517071195031518, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58bd8c9ebe7e7564a9b918df74968c92, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
@@ -62643,7 +62625,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1422239901
 Transform:
@@ -62729,7 +62711,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1423757929
 Transform:
@@ -62790,7 +62772,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -62867,7 +62848,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1428523541
 Transform:
@@ -62928,7 +62909,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 4, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -63005,7 +62985,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1429079655
 Transform:
@@ -63066,7 +63046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -63143,7 +63122,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1443275690
 Transform:
@@ -63204,7 +63183,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -63281,7 +63259,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1444381569
 Transform:
@@ -63342,7 +63320,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -63419,7 +63396,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1445721213
 Transform:
@@ -63480,7 +63457,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 5, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -63557,7 +63533,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1451971604
 Transform:
@@ -63618,7 +63594,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -63756,7 +63731,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -64002,7 +63976,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1467595500
 Transform:
@@ -64085,7 +64059,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1468182579
 Transform:
@@ -64343,7 +64317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1477241631
 Transform:
@@ -64404,7 +64378,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -64886,7 +64859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 31, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -64963,7 +64935,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1484954137
 Transform:
@@ -65024,7 +64996,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -65273,7 +65244,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1489910489
 Transform:
@@ -65334,7 +65305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -65411,7 +65381,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1494002205
 Transform:
@@ -65472,7 +65442,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 19, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -65721,7 +65690,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1504437693
 Transform:
@@ -65782,7 +65751,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -65859,7 +65827,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1504668985
 Transform:
@@ -65920,7 +65888,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -65997,7 +65964,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1505709490
 Transform:
@@ -66059,7 +66026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -66136,7 +66102,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1505780541
 Transform:
@@ -66197,7 +66163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -66274,7 +66239,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1507260366
 Transform:
@@ -66335,7 +66300,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 16, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -66584,7 +66548,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1515608963
 Transform:
@@ -66645,7 +66609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -66722,7 +66685,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1516127828
 Transform:
@@ -66783,7 +66746,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 28, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -67204,7 +67166,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1538649126
 Transform:
@@ -67265,7 +67227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -68030,7 +67991,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1561464475
 Transform:
@@ -68091,7 +68052,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -68168,7 +68128,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1562760571
 Transform:
@@ -68230,7 +68190,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -68479,7 +68438,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1565382152
 Transform:
@@ -68540,7 +68499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -69133,7 +69091,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1586835162
 Transform:
@@ -69194,7 +69152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 8, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -69615,7 +69572,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1607611885
 Transform:
@@ -69676,7 +69633,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -69753,7 +69709,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1611442759
 Transform:
@@ -69814,7 +69770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -70063,7 +70018,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1624021770
 Transform:
@@ -70124,7 +70079,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -70545,7 +70499,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1632815361
 Transform:
@@ -70607,7 +70561,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -70856,7 +70809,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1638081817
 Transform:
@@ -70917,7 +70870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 24, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -71472,7 +71424,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1646135840
 Transform:
@@ -71533,7 +71485,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -71610,7 +71561,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1650690067
 Transform:
@@ -71671,7 +71622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 8}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -71748,7 +71698,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1652987536
 Transform:
@@ -71809,7 +71759,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -72058,7 +72007,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1659880955
 Transform:
@@ -72119,7 +72068,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -72193,7 +72141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1666142089
 Transform:
@@ -72279,7 +72227,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1676738952
 Transform:
@@ -72340,7 +72288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -72589,7 +72536,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1685815260
 Transform:
@@ -72651,7 +72598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -73576,7 +73522,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1703074481
 Transform:
@@ -73637,7 +73583,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -73714,7 +73659,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1705296336
 Transform:
@@ -73775,7 +73720,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 22, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -74601,7 +74545,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -74673,7 +74616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1735562156
 Transform:
@@ -74711,7 +74654,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1736628127
 Transform:
@@ -74772,7 +74715,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -74910,7 +74852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75159,7 +75100,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1749146377
 Transform:
@@ -75220,7 +75161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75297,7 +75237,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1752548586
 Transform:
@@ -75358,7 +75298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75435,7 +75374,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1770345969
 Transform:
@@ -75496,7 +75435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 0}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75573,7 +75511,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1773262533
 Transform:
@@ -75634,7 +75572,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 15, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75711,7 +75648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1776922232
 Transform:
@@ -75772,7 +75709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -75849,7 +75785,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1779516785
 Transform:
@@ -75910,7 +75846,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 1, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -76159,7 +76094,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1781396922
 Transform:
@@ -76220,7 +76155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 20, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -76813,7 +76747,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1793420565
 Transform:
@@ -76874,7 +76808,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -76951,7 +76884,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1795881198
 Transform:
@@ -77012,7 +76945,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 21, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -77089,7 +77021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1797634604
 Transform:
@@ -77150,7 +77082,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -77566,7 +77497,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1812284572
 Transform:
@@ -77604,7 +77535,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1813143947
 Transform:
@@ -77665,7 +77596,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 18, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -77911,7 +77841,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1815573219
 Transform:
@@ -78169,7 +78099,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1823019300
 Transform:
@@ -78230,7 +78160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -79165,18 +79094,6 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 9018217317395620828, guid: 2f1d52cad88349649b9994042d71c7fb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 9018217317395620828, guid: 2f1d52cad88349649b9994042d71c7fb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 9018217317395620828, guid: 2f1d52cad88349649b9994042d71c7fb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 9018217317395620828, guid: 2f1d52cad88349649b9994042d71c7fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00020000458
       objectReference: {fileID: 0}
@@ -79759,7 +79676,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1879032444
 Transform:
@@ -79820,7 +79737,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 6, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -79946,6 +79862,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2210604736790407533, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
@@ -79973,7 +79893,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1887604156
 Transform:
@@ -80034,7 +79954,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -80452,7 +80371,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1903523881
 Transform:
@@ -80538,7 +80457,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1903797095
 Transform:
@@ -80599,7 +80518,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 13, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -80676,7 +80594,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1913046187
 Transform:
@@ -80737,7 +80655,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -80814,7 +80731,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1913315807
 Transform:
@@ -80875,7 +80792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 11, y: 15}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -81296,7 +81212,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1935475316
 Transform:
@@ -81357,7 +81273,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 14}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -81434,7 +81349,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1936064301
 Transform:
@@ -81495,7 +81410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -82069,6 +81983,111 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1961083809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1961083813}
+  - component: {fileID: 1961083812}
+  - component: {fileID: 1961083811}
+  - component: {fileID: 1961083810}
+  m_Layer: 0
+  m_Name: Interface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1961083810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961083809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1961083811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961083809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1961083812
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961083809}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1961083813
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961083809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2071365624}
+  - {fileID: 705208121}
+  - {fileID: 1410249732}
+  - {fileID: 1155449147}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1963740032
 GameObject:
   m_ObjectHideFlags: 0
@@ -82088,7 +82107,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1963740033
 Transform:
@@ -82150,7 +82169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 3}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -82224,7 +82242,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1973240804
 Transform:
@@ -82310,7 +82328,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1974141729
 Transform:
@@ -82371,7 +82389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -82792,7 +82809,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1987129247
 Transform:
@@ -82853,7 +82870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 25, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -82930,7 +82946,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1992861244
 Transform:
@@ -82991,7 +83007,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 33, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -83409,7 +83424,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2003851427
 Transform:
@@ -83495,7 +83510,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2009713745
 Transform:
@@ -83556,7 +83571,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 0, y: 12}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -83633,7 +83647,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2014777535
 Transform:
@@ -83694,7 +83708,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -83771,7 +83784,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2021792959
 Transform:
@@ -83832,7 +83845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 32, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -83909,7 +83921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2022449221
 Transform:
@@ -83970,7 +83982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 14, y: 4}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -84047,7 +84058,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2023198466
 Transform:
@@ -84108,7 +84119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 3, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -84873,7 +84883,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2043966584
 Transform:
@@ -84934,7 +84944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -85011,7 +85020,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2047569485
 Transform:
@@ -85072,7 +85081,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 9}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -85149,7 +85157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2049221659
 Transform:
@@ -85210,7 +85218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 9, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -85631,7 +85638,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2060154621
 Transform:
@@ -85692,7 +85699,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 12, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -85761,18 +85767,6 @@ PrefabInstance:
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_RootOrder
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7007766894986526543, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -85906,7 +85900,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -85964,6 +85957,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062743415}
   m_Mesh: {fileID: 8691780276856062721, guid: b69d49fb7f80d1d4a98fffaffae3c98b, type: 3}
+--- !u!1 &2071365623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2071365624}
+  - component: {fileID: 2071365626}
+  - component: {fileID: 2071365625}
+  m_Layer: 0
+  m_Name: Text (Legacy)
+  m_TagString: HPText
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2071365624
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071365623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1961083813}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 375, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2071365625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071365623}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &2071365626
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071365623}
+  m_CullTransparentMesh: 1
 --- !u!1 &2072022354
 GameObject:
   m_ObjectHideFlags: 0
@@ -85983,7 +86056,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2072022355
 Transform:
@@ -86044,7 +86117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -86121,7 +86193,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2075054569
 Transform:
@@ -86182,7 +86254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 11}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -86256,7 +86327,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2077689205
 Transform:
@@ -86342,7 +86413,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2078570468
 Transform:
@@ -86403,7 +86474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 10, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -86529,6 +86599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbarian (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7916517071195031518, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58bd8c9ebe7e7564a9b918df74968c92, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ee0da3a53034b841bda068a31cb6035, type: 3}
@@ -87072,7 +87146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2101862529
 Transform:
@@ -87133,7 +87207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 27, y: 13}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -87210,7 +87283,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2105343672
 Transform:
@@ -87271,7 +87344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 30, y: 10}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -87692,7 +87764,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2116498573
 Transform:
@@ -87753,7 +87825,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 23, y: 1}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -87819,6 +87890,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 354357703}
     m_Modifications:
+    - target: {fileID: 4481285102851316768, guid: 0014687c912627547b0262465a6caacd, type: 3}
+      propertyPath: isEnemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5129439629656943862, guid: 0014687c912627547b0262465a6caacd, type: 3}
       propertyPath: m_Name
       value: "\u0412\u043E\u043B\u043A"
@@ -87879,6 +87954,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8729453427458744065, guid: 0014687c912627547b0262465a6caacd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0014687c912627547b0262465a6caacd, type: 3}
@@ -87955,6 +88034,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2210604736790407533, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 841df23e603c7674288dfa9ad94dbea4, type: 3}
@@ -87982,7 +88065,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2123467824
 Transform:
@@ -88043,7 +88126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 29, y: 7}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -88120,7 +88202,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2125547443
 Transform:
@@ -88181,7 +88263,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 26, y: 6}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -88258,7 +88339,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2129110992
 Transform:
@@ -88319,7 +88400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 2, y: 2}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -88568,7 +88648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2138561842
 Transform:
@@ -88629,7 +88709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellCoords: {x: 7, y: 5}
-  neighbourCells: []
   movementRangeCells: []
   attackRangeCells: []
   originalColor: {r: 0, g: 0, b: 0, a: 0}
@@ -88870,6 +88949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin-archer (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8153714972308262105, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42a15d0408858e84ab8094b64edef6d9, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 455a7e475d6e87e4c8dd8084308800b8, type: 3}
@@ -89074,7 +89157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &329002185096699267
 MeshFilter:
@@ -89123,7 +89206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1584443740108106750
 Transform:
@@ -89221,7 +89304,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &2420676378374000386
 GameObject:
@@ -89237,7 +89320,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2508391803143041758
 Transform:
@@ -89390,7 +89473,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &5101113381750997814
 MeshFilter:
@@ -90711,7 +90794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 379b2a281658d53488f1873ff62e1692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interface: {fileID: 44839102}
+  Interface: {fileID: 1961083809}
   OptionMenu: {fileID: 5536448441059022642}
   PauseMenu: {fileID: 5536448441291873896}
   VideoSettings: {fileID: 5536448441586227478}
@@ -99233,7 +99316,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &6161172781258191427
 GameObject:
@@ -99251,7 +99334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &6456485429858710454
 GameObject:
@@ -99269,7 +99352,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6529560501391451317
 Transform:
@@ -99344,7 +99427,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &6718402343111115310
 MeshRenderer:
@@ -99510,7 +99593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &8861427144920389417
 MeshRenderer:
@@ -99717,7 +99800,6 @@ Transform:
   - {fileID: 1318379323}
   - {fileID: 1192760229}
   - {fileID: 456384734}
-  - {fileID: 509266667}
   - {fileID: 1650690067}
   - {fileID: 863050143}
   - {fileID: 279685776}
@@ -99840,7 +99922,7 @@ Transform:
   - {fileID: 603148086}
   - {fileID: 107835882}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8992388204453042108
 MonoBehaviour:
@@ -99855,9 +99937,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cells: []
+  characters: []
+  clip: {fileID: 0}
   currentChosenCharacter: {fileID: 0}
   audioSource: {fileID: 450244761}
+  enemyCount: 0
+  allyCount: 0
+  gameManager: {fileID: 54149805}
   currentState: 0
+  i: 0
 --- !u!1 &8992388204453042109
 GameObject:
   m_ObjectHideFlags: 0

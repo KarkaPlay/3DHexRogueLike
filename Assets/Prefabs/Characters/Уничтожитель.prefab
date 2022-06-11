@@ -121,10 +121,10 @@ MonoBehaviour:
   cell: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
-  HP: 128
-  attack: 20
-  movementRange: 0
-  attackRange: 0
+  HP: 64
+  attack: 12
+  movementRange: 2
+  attackRange: 1
 --- !u!114 &6500017607925804976
 MonoBehaviour:
   m_ObjectHideFlags: 0

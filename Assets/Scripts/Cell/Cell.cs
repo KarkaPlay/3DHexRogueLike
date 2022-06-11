@@ -97,10 +97,12 @@ public class Cell : MonoBehaviour
                     character.HP -= character.manager.currentChosenCharacter.attack;
                     if (character.HP < 1)
                     {
+                        character.manager.characters.Remove(character);
                         Destroy(character.gameObject);
                     }
                 }
             }
+            character.StartEnemyAction();
         }
     }
 

@@ -1,14 +1,19 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GridManager : MonoBehaviour
 {
     public List<Cell> cells;
     public List<Character> characters;
+    public AudioClip clip;
 
     public Character currentChosenCharacter;
     public AudioSource audioSource;
+    
+    public int enemyCount, allyCount;
+    public GameManager gameManager;
 
     public enum State
     {
@@ -34,16 +39,47 @@ public class GridManager : MonoBehaviour
         characters.RemoveAll(item => item == null);
 
         currentState = State.nothingChosen;
+
+        /*audioSource.clip = clips[gameManager.scene.buildIndex - 1];*/
     }
 
-    public void EnemiesMove()
+    private void Start()
     {
+        audioSource.Play();
+    }
+
+    public int i = 0;
+
+    public void UpdateStats()
+    {
+        enemyCount = 0;
+        allyCount = 0;
         foreach (var character in characters)
         {
             if (character.isEnemy)
             {
-                //character.RandomMove();
+                enemyCount++;
             }
+            else
+            {
+                allyCount++;
+            }
+        }
+        if (enemyCount == 0)
+        {
+            if (gameManager.scene.buildIndex == 3)
+            {
+                gameManager.finaleImage.GetComponent<Image>().enabled = true;
+            }
+            else
+            {
+                gameManager.winImage.GetComponent<Image>().enabled = true;
+            }
+        }
+
+        if (allyCount == 0)
+        {
+            gameManager.looseImage.GetComponent<Image>().enabled = true;
         }
     }
 
@@ -80,7 +116,7 @@ public class GridManager : MonoBehaviour
         currentChosenCharacter.cell.ChangeColor(Color.blue);
 
         // Звук выбора ячейки
-        audioSource.Play();
+        //audioSource.Play();
         
         // Состояние меняется на "выбран персонаж"
         currentState = State.characterChosen;
