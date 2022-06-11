@@ -1,10 +1,12 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
     public List<Cell> cells;
-    
+    public List<Character> characters;
+
     public Character currentChosenCharacter;
     public AudioSource audioSource;
 
@@ -24,7 +26,25 @@ public class GridManager : MonoBehaviour
             cells.Add(cell);
         }
 
+        foreach (var cell in cells)
+        {
+            characters.Add(cell.GetComponentInChildren<Character>());
+        }
+
+        characters.RemoveAll(item => item == null);
+
         currentState = State.nothingChosen;
+    }
+
+    public void EnemiesMove()
+    {
+        foreach (var character in characters)
+        {
+            if (character.isEnemy)
+            {
+                character.RandomMove();
+            }
+        }
     }
 
     public Cell FindCell(Vector2Int coords)

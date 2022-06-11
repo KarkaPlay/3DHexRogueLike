@@ -1,6 +1,8 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class Character : MonoBehaviour
 {
@@ -28,6 +30,21 @@ public class Character : MonoBehaviour
     {
         Move();
     }
+
+    public void RandomMove()
+    {
+        StartCoroutine("RandomMoveRoutine");
+    }
+
+    static Random rnd = new Random();
+    public IEnumerator RandomMoveRoutine()
+    {
+        yield return new WaitForSeconds(1f);
+        if (isEnemy)
+        {
+            MoveTo(cell.movementRangeCells[rnd.Next(cell.movementRangeCells.Count)]);
+        }
+    }
     
     public void MoveTo(Cell toCell)
     {
@@ -47,6 +64,7 @@ public class Character : MonoBehaviour
         isChosen = false;
 
         manager.currentState = GridManager.State.nothingChosen;
+        manager.EnemiesMove();
     }
 
     void Move()
