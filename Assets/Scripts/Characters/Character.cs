@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
     public bool isChosen;
     
     public Cell cell;
+    public Weapon weapon;
     public GridManager manager;
     public Vector3 gridOffset;
 
@@ -18,7 +19,7 @@ public class Character : MonoBehaviour
     public int attack;
     public int movementRange;
     public int attackRange;
-    
+    public int initiative;
 
     private void Start()
     {

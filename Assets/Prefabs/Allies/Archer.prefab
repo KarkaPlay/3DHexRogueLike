@@ -1245,6 +1245,7 @@ GameObject:
   - component: {fileID: 9018217317395620828}
   - component: {fileID: -7508616732534589395}
   - component: {fileID: 2958457371483584123}
+  - component: {fileID: -4027820397665379178}
   - component: {fileID: 7429024818098642301}
   m_Layer: 0
   m_Name: Archer
@@ -1308,6 +1309,21 @@ MonoBehaviour:
   movementRange: 4
   attackRange: 3
   randomCells: []
+--- !u!114 &-4027820397665379178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8533464164492130662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc789d93925b1164e8d51c0663d475e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  defence: 0
+  attackRange: 0
 --- !u!114 &7429024818098642301
 MonoBehaviour:
   m_ObjectHideFlags: 0

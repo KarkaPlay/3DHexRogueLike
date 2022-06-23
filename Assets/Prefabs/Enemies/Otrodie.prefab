@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7938627632851709759}
   - component: {fileID: 207705292158815899}
   m_Layer: 0
-  m_Name: "\u041E\u0442\u0440\u043E\u0434\u044C\u0435"
+  m_Name: Otrodie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,12 +101,14 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
+  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
-  HP: 128
+  HP: 1280
   attack: 20
   movementRange: 3
   attackRange: 1
+  initiative: 3
   randomCells: []
 --- !u!136 &207705292158815899
 CapsuleCollider:

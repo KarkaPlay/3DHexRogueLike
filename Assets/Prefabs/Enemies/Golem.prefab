@@ -100,12 +100,14 @@ MonoBehaviour:
   isEnemy: 0
   isChosen: 0
   cell: {fileID: 0}
+  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 105
   attack: 18
   movementRange: 0
   attackRange: 0
+  initiative: 0
   randomCells: []
 --- !u!136 &8848829361244212174
 CapsuleCollider:
@@ -186,12 +188,14 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
+  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
-  HP: 105
+  HP: 1200
   attack: 18
-  movementRange: 1
+  movementRange: 20
   attackRange: 1
+  initiative: 30
   randomCells: []
 --- !u!114 &7241386786646066431
 MonoBehaviour:

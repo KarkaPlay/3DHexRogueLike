@@ -69,12 +69,14 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
+  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
-  HP: 25
+  HP: 250
   attack: 7
   movementRange: 5
   attackRange: 2
+  initiative: 8
   randomCells: []
 --- !u!114 &276104755858711304
 MonoBehaviour:
