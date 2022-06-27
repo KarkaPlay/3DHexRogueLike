@@ -217,7 +217,6 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
-  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 640
@@ -225,4 +224,12 @@ MonoBehaviour:
   movementRange: 2
   attackRange: 1
   initiative: 7
+  weapon: {fileID: 0}
+  weaponName: empty
+  weaponDamage: 4
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: cabasset
+  defense: 1
   randomCells: []

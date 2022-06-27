@@ -69,7 +69,6 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
-  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 250
@@ -77,6 +76,14 @@ MonoBehaviour:
   movementRange: 5
   attackRange: 2
   initiative: 8
+  weapon: {fileID: 0}
+  weaponName: crossbow
+  weaponDamage: 18
+  weaponMinRange: 1
+  weaponMaxRange: 3
+  armor: {fileID: 0}
+  armorName: dagger
+  defense: 0
   randomCells: []
 --- !u!114 &276104755858711304
 MonoBehaviour:

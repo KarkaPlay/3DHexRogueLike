@@ -101,7 +101,6 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
-  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 1280
@@ -109,6 +108,14 @@ MonoBehaviour:
   movementRange: 3
   attackRange: 1
   initiative: 3
+  weapon: {fileID: 0}
+  weaponName: empty
+  weaponDamage: 4
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: cabasset
+  defense: 1
   randomCells: []
 --- !u!136 &207705292158815899
 CapsuleCollider:

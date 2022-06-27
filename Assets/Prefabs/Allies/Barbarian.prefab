@@ -786,6 +786,15 @@ MonoBehaviour:
   attack: 10
   movementRange: 3
   attackRange: 1
+  initiative: 6
+  weapon: {fileID: 0}
+  weaponName: dubinka
+  weaponDamage: 6
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: brigantine
+  defense: 2
   randomCells: []
 --- !u!114 &1419373157452145863
 MonoBehaviour:

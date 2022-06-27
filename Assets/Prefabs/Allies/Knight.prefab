@@ -101,10 +101,19 @@ MonoBehaviour:
   cell: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
-  HP: 32
+  HP: 55
   attack: 10
-  movementRange: 3
+  movementRange: 2
   attackRange: 1
+  initiative: 3
+  weapon: {fileID: 0}
+  weaponName: sword
+  weaponDamage: 11
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: chain-mail
+  defense: 2
   randomCells: []
 --- !u!114 &7685153332032062477
 MonoBehaviour:

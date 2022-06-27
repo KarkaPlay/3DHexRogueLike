@@ -925,6 +925,15 @@ MonoBehaviour:
   attack: 16
   movementRange: 3
   attackRange: 1
+  initiative: 4
+  weapon: {fileID: 0}
+  weaponName: axe
+  weaponDamage: 13
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: quilted_armor
+  defense: 1
   randomCells: []
 --- !u!114 &5183492194382540244
 MonoBehaviour:

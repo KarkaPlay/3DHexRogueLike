@@ -774,8 +774,17 @@ MonoBehaviour:
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 16
   attack: 20
-  movementRange: 3
+  movementRange: 4
   attackRange: 1
+  initiative: 5
+  weapon: {fileID: 0}
+  weaponName: dubinka
+  weaponDamage: 6
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: squama
+  defense: 1
   randomCells: []
 --- !u!114 &2916677739921625995
 MonoBehaviour:

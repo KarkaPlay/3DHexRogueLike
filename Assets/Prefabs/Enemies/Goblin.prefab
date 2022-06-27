@@ -213,7 +213,6 @@ MonoBehaviour:
   isEnemy: 1
   isChosen: 0
   cell: {fileID: 0}
-  weapon: {fileID: 0}
   manager: {fileID: 0}
   gridOffset: {x: 0, y: 0, z: 0}
   HP: 70
@@ -221,6 +220,14 @@ MonoBehaviour:
   movementRange: 30
   attackRange: 1
   initiative: 50
+  weapon: {fileID: 0}
+  weaponName: spear
+  weaponDamage: 12
+  weaponMinRange: 1
+  weaponMaxRange: 2
+  armor: {fileID: 0}
+  armorName: long_bow
+  defense: 0
   randomCells: []
 --- !u!114 &645588081
 MonoBehaviour:

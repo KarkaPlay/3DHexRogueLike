@@ -410,6 +410,15 @@ MonoBehaviour:
   attack: 30
   movementRange: 2
   attackRange: 1
+  initiative: 0
+  weapon: {fileID: 0}
+  weaponName: hammer
+  weaponDamage: 14
+  weaponMinRange: 1
+  weaponMaxRange: 1
+  armor: {fileID: 0}
+  armorName: 
+  defense: 0
   randomCells: []
 --- !u!114 &45721414292817967
 MonoBehaviour:
